@@ -10,7 +10,7 @@ exports.search = function (req, res, next) {
         "availability": {$gte: adults}
     };
     Flights.count(query, function (err, count) {
-        Flights.find(query).skip(page > 1 ? (page - 1 * iPP) : 0)
+        Flights.find(query).skip(page > 1 ? ((page - 1) * iPP) : 0)
             .limit(iPP)
             .then((flights, err) => {
 
