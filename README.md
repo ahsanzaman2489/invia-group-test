@@ -59,4 +59,19 @@ Install dependencies for the server:
 ### Server
 * keep server running on 3000
 
+
+
+### FLIGHT AVAILABLE WITH THE COMBINATION OF THESE AIRLINESA AND DATES IN MONGO DB AS A MOCK
+
+## Airports
+* Karachi
+* Dubai
+* Abu Dhabi
+* Dublin
+* Berlin
+
+## DATES MM/DD/YYYY 
+* 09/20/2018
+* 09/22/2018
+
 Created By Ahsan Zaman
